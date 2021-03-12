@@ -1,8 +1,8 @@
 div {
-  height: 50px;
-  line-height: 25px;
+  height: 70px;
+  line-height: 30px;
   text-align: center;
-  border: 2px dashed #f69c55;
+  border: 4px dashed #f69c55;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Pacifico);
@@ -14,8 +14,8 @@ body {
 
 .container{
   background-color:#E0F2F1;
-  padding:10px;
-  border-radius:15px;
+  padding:15px;
+  border-radius:20px;
   box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.75);
 }
 
@@ -54,40 +54,40 @@ h1 {
   30%{color: Blue;}
 	40%{color: Red;}
   50%{color: Blue;}
-	60%{color: green;}
-  70%{color: cyan;}
-  80%{color: DeepPink;}
-  90%{color: DodgerBlue;}
-	100%{color: orange;}
+	60%{color: Red;}
+  70%{color: Blue;}
+  80%{color: Red;}
+  90%{color: Blue;}
+	100%{color: Red;}
 }
 
 /* Internet Explorer */
 @-ms-keyframes rainbow{
-   0%{color: orange;}	
-  10%{color: purple;}	
-	20%{color: red;}
-  30%{color: CadetBlue;}
-	40%{color: yellow;}
-  50%{color: coral;}
-	60%{color: green;}
-  70%{color: cyan;}
-  80%{color: DeepPink;}
-  90%{color: DodgerBlue;}
-	100%{color: orange;}
+   0%{color: Red;}	
+  10%{color: Blue;}	
+	20%{color: Red;}
+  30%{color: Blue;}
+	40%{color: Red;}
+  50%{color: Blue;}
+	60%{color: Red;}
+  70%{color: Blue;}
+  80%{color: Red;}
+  90%{color: Blue;}
+	100%{color: Red;}
 }
 
 /* Standar Syntax */
 @keyframes rainbow{
-    0%{color: orange;}	
-  10%{color: purple;}	
-	20%{color: red;}
-  30%{color: CadetBlue;}
-	40%{color: yellow;}
-  50%{color: coral;}
-	60%{color: green;}
-  70%{color: cyan;}
-  80%{color: DeepPink;}
-  90%{color: DodgerBlue;}
-	100%{color: orange;}
-}
+    0%{color: Red;}	
+  10%{color: Blue;}	
+	20%{color: Red;}
+  30%{color: Blue;}
+	40%{color: Red;}
+  50%{color: Blue;}
+	60%{color: Red;}
+  70%{color: Blue;}
+  80%{color: Red;}
+  90%{color: Blue;}
+	100%{color: Red;}
+	<!-- Original code was from https://codepen.io/cb_rn/pen/OVXXmj I ended up changing some stuff around for my website -->
 <h1 style="colour: green; font-size:16px">Robert Mitrovski's Profile</h1>
