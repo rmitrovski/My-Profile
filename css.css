@@ -23,12 +23,26 @@ h1, h2{
   text-align:center;
 }
 
+.underlined {
+  text-decoration: underline overline solid white;
+  text-align:center;
+  color: yellow;
+}
+
+.underlined2 {
+  text-align:center;
+  color: gold;
+}
+
 h1 {
   color:rgba(100, 50, 255, .8);
   font-family: 'Pacifico', cursive;
   color:#212121;
 }
-
+#float  {
+float: right;    
+ margin: 0 0 0 15px;
+}
 .rainbow {
   
    /* Font options */
