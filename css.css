@@ -42,7 +42,10 @@ h1 {
 #float  {
 float: right;    
  margin: 0 0 0 15px;
+ height: 500px;
 }
+#left  {
+float: left;  
 .rainbow {
   
    /* Font options */
